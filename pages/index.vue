@@ -84,23 +84,23 @@ onMounted(() => {
   font-size: 60px;
 }
 .color1 {
-  background-color: #00575e;
+  background-color: #157aee;
 }
 .color2 {
-  background-color: #034e00;
+  background-color: #157aee;
 }
 .card {
   height: 250px;
-  box-shadow: 1px 1px 10px#0f8178;
+  box-shadow: 1px 1px 10px #000000;
 }
 .card.bg-pengunjung {
-  background-image: url('../assets/img/buku-perpus.jpeg');
+  background-image: url('../assets/img/pengunjung.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .card.bg-buku {
-  background: url(../assets/img/pengunjung.png) no-repeat center center;
+  background: url(../assets/img/buku.jpeg) no-repeat center center;
   background-size: cover;
 }
 </style>
